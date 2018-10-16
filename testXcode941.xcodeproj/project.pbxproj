@@ -16,6 +16,7 @@
 		2255209B216E6F170016AEBC /* TXTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255209A216E6F170016AEBC /* TXTestVC.m */; };
 		2264755C217676CC00CF61E5 /* future21-1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2264755B217676CC00CF61E5 /* future21-1.m */; };
 		2264755F217676F400CF61E5 /* future21-2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2264755E217676F400CF61E5 /* future21-2.m */; };
+		22647566217677B400CF61E5 /* future21-3.m in Sources */ = {isa = PBXBuildFile; fileRef = 22647565217677B400CF61E5 /* future21-3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		2264755B217676CC00CF61E5 /* future21-1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "future21-1.m"; sourceTree = "<group>"; };
 		2264755D217676F400CF61E5 /* future21-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "future21-2.h"; sourceTree = "<group>"; };
 		2264755E217676F400CF61E5 /* future21-2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "future21-2.m"; sourceTree = "<group>"; };
+		22647564217677B400CF61E5 /* future21-3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "future21-3.h"; sourceTree = "<group>"; };
+		22647565217677B400CF61E5 /* future21-3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "future21-3.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 				2264755B217676CC00CF61E5 /* future21-1.m */,
 				2264755D217676F400CF61E5 /* future21-2.h */,
 				2264755E217676F400CF61E5 /* future21-2.m */,
+				22647564217677B400CF61E5 /* future21-3.h */,
+				22647565217677B400CF61E5 /* future21-3.m */,
 			);
 			path = Future21;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22647566217677B400CF61E5 /* future21-3.m in Sources */,
 				2255202B216E3D050016AEBC /* ViewController.m in Sources */,
 				22552036216E3D070016AEBC /* main.m in Sources */,
 				2264755F217676F400CF61E5 /* future21-2.m in Sources */,
