@@ -14,6 +14,8 @@
 		22552033216E3D070016AEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22552031216E3D070016AEBC /* LaunchScreen.storyboard */; };
 		22552036216E3D070016AEBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22552035216E3D070016AEBC /* main.m */; };
 		2255209B216E6F170016AEBC /* TXTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255209A216E6F170016AEBC /* TXTestVC.m */; };
+		2264756B21767D6300CF61E5 /* future31.m in Sources */ = {isa = PBXBuildFile; fileRef = 2264756A21767D6300CF61E5 /* future31.m */; };
+		2264757221767E8D00CF61E5 /* future32.m in Sources */ = {isa = PBXBuildFile; fileRef = 2264757121767E8D00CF61E5 /* future32.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		22552035216E3D070016AEBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22552099216E6F170016AEBC /* TXTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTestVC.h; sourceTree = "<group>"; };
 		2255209A216E6F170016AEBC /* TXTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTestVC.m; sourceTree = "<group>"; };
+		2264756921767D6300CF61E5 /* future31.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = future31.h; sourceTree = "<group>"; };
+		2264756A21767D6300CF61E5 /* future31.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = future31.m; sourceTree = "<group>"; };
+		2264757021767E8D00CF61E5 /* future32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = future32.h; sourceTree = "<group>"; };
+		2264757121767E8D00CF61E5 /* future32.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = future32.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +86,21 @@
 		2264756721767CEE00CF61E5 /* dev3 */ = {
 			isa = PBXGroup;
 			children = (
+				2264756821767D2A00CF61E5 /* future3 */,
 				2264757321767F1900CF61E5 /* Future5 */,
 			);
 			path = dev3;
+			sourceTree = "<group>";
+		};
+		2264756821767D2A00CF61E5 /* future3 */ = {
+			isa = PBXGroup;
+			children = (
+				2264756921767D6300CF61E5 /* future31.h */,
+				2264756A21767D6300CF61E5 /* future31.m */,
+				2264757021767E8D00CF61E5 /* future32.h */,
+				2264757121767E8D00CF61E5 /* future32.m */,
+			);
+			path = future3;
 			sourceTree = "<group>";
 		};
 		2264757321767F1900CF61E5 /* Future5 */ = {
@@ -162,6 +180,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2264756B21767D6300CF61E5 /* future31.m in Sources */,
+				2264757221767E8D00CF61E5 /* future32.m in Sources */,
 				2255202B216E3D050016AEBC /* ViewController.m in Sources */,
 				22552036216E3D070016AEBC /* main.m in Sources */,
 				2255209B216E6F170016AEBC /* TXTestVC.m in Sources */,
