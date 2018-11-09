@@ -14,6 +14,7 @@
 		22552033216E3D070016AEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22552031216E3D070016AEBC /* LaunchScreen.storyboard */; };
 		22552036216E3D070016AEBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22552035216E3D070016AEBC /* main.m */; };
 		2255209B216E6F170016AEBC /* TXTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2255209A216E6F170016AEBC /* TXTestVC.m */; };
+		2291B9EB2195F89D00661EB9 /* TXTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2291B9EA2195F89D00661EB9 /* TXTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		22552035216E3D070016AEBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22552099216E6F170016AEBC /* TXTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTestVC.h; sourceTree = "<group>"; };
 		2255209A216E6F170016AEBC /* TXTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTestVC.m; sourceTree = "<group>"; };
+		2291B9E92195F89D00661EB9 /* TXTestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXTestClass.h; sourceTree = "<group>"; };
+		2291B9EA2195F89D00661EB9 /* TXTestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				22552031216E3D070016AEBC /* LaunchScreen.storyboard */,
 				22552034216E3D070016AEBC /* Info.plist */,
 				22552035216E3D070016AEBC /* main.m */,
+				2291B9E92195F89D00661EB9 /* TXTestClass.h */,
+				2291B9EA2195F89D00661EB9 /* TXTestClass.m */,
 			);
 			path = testXcode941;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 			files = (
 				2255202B216E3D050016AEBC /* ViewController.m in Sources */,
 				22552036216E3D070016AEBC /* main.m in Sources */,
+				2291B9EB2195F89D00661EB9 /* TXTestClass.m in Sources */,
 				2255209B216E6F170016AEBC /* TXTestVC.m in Sources */,
 				22552028216E3D050016AEBC /* AppDelegate.m in Sources */,
 			);
